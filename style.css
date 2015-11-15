@@ -1,0 +1,54 @@
+{
+    margin: 0;
+    padding: 0;
+}
+ 
+header, footer, aside, nav, article {
+    display: block;
+}
+
+.card {
+	width: 400px; 
+	height: 180px;
+
+	margin: 20px auto;
+	padding: 20px;
+	border-radius: 2px 2px;
+	background-color: white;
+	color: black;
+
+	font-family: 'Bitter', serif;
+
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+
+	-webkit-box-shadow: 7px 6px 10px 0px rgba(0,0,0,1);
+	-moz-box-shadow: 7px 6px 10px 0px rgba(0,0,0,1);
+	box-shadow: 7px 6px 10px 0px rgba(0,0,0,1);
+}
+
+h1 {
+	margin-top: 0px;
+	margin-bottom: 8px;
+}
+
+h4 {
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 4px;
+    padding-left: 10px;
+    max-width: 300px;
+}
+
+a {
+   color: black;
+}
